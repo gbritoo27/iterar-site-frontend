@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Iterar - Project Planner</title>
+		<meta charset="utf-8">
+		<favicon src="img/iterar.ico">		
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+		<script src="js/jquery-2.1.1.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-default navbar-static-top menu">
+			<div class="container">
+				<div class="row no-padding">
+					<div class="col-md-12 no-padding">
+						<div class="navbar-brand logo">
+							<img src="img/iterar.png" height="50">
+						</div>
+						<div class="navbar-right social-networks">
+							<i class="fa fa-fw fa-lg"></i>
+							<i class="fa fa-fw fa-lg"></i>
+							<i class="fa fa-fw fa-lg"></i>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</nav>
+
+		<div class="container container1">
+			<div class="row add-padding-top">
+				<div class="col-md-6">
+					<form>
+						<div class="project-planner">
+							
+							<div class="row">
+								<div class="col-sm-6 col-md-6 name-email">
+									Full Name<br>
+									<input type="text" name="name">
+								</div>
+								<div class="col-sm-6 col-md-6 name-email">
+									Email<br>
+									<input type="text" name="email">
+								</div>
+							</div>
+
+							<!-- ADD PADDING HERE (CHANGE INPUT SIZE)-->
+
+							<div class="row">
+								<div class="col-md-12">
+									What's the name of your project?<br>
+									<input type="text" name="project-name">
+								</div>	
+							</div>
+
+							<!-- ADD PADDING HERE (CHANGE INPUT SIZE) -->
+
+							<div class="row">
+								<div class="col-md-12">
+									Tell us briefly about your project and plans. We can get into details later.<br>
+									<textarea type="text" class="about-input" rows="6" resize="none" name="about"></textarea>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-12">
+									When do you expect to have your project ready?<br>(slider)
+									<!-- SLIDER -->
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-12">
+									How much do you expect to spend?<br>(slider)
+									<!-- SLIDER -->
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-12">
+									<div class="submit-button">Submit</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+
+				<div class="col-md-6">
+					
+					<div class="title">
+						Interested in working with us?
+					</div>
+					<div class="description">
+						Use this project planner to give us some initial insights about your idea. We can chat later to merge into the details.
+					</div>
+
+				</div>
+			</div>
+		</div>
+		
+		<div class="row footer no-padding">
+			<div class="container container1 no-padding">
+				<div class="row no-padding">
+					<div class="col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2 footer-content1">
+						<span class="mini-title">
+							Contact<br>
+						</span>
+						<span class="lighter">
+							Rua de Cedofeita, n 11<br>
+							4050-117<br>
+							Porto<br><br>
+							Our office and more<br><br>
+							hello@iterar.co
+						</span>	
+					</div>
+					<div class="col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-2 footer-content2">
+						<span class="mini-title">
+							Subscribe to our newsletter<br>
+						</span>
+						<span class="lighter">	
+							Just juicy stuff, once a month or less<br><br>
+							<input type="text" name="name" value="Name" class="input-change-name" onfocus="if (this.value=='Name') this.value='';"></input>
+							<br><br>
+							<input type="text" name="email" value="Email Address" class="input-change-email" onfocus="if (this.value=='Email Address') this.value='';"></input>
+							<br><br>
+							Subscribe
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

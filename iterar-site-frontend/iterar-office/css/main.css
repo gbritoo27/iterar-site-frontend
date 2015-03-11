@@ -1,0 +1,126 @@
+body {
+	background-color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+
+#menu {
+	position: fixed;
+	width: 100%;
+	border-bottom: 0;
+}
+
+.navbar-default {
+	opacity: 10% !important;
+	border: none;
+	position: fixed;
+	width: 100%;
+}
+
+.navbar {
+	background: rgba(255, 255, 255, 0.8);
+}
+
+.logo {
+	padding-top: 0px !important;
+}
+
+.social-networks {
+	padding-top: 16px;
+	padding-right: 15px;
+}
+
+.no-padding {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.add-padding-top {
+	padding-top: 35px;
+}
+
+.big-image {
+	position: relative;
+	bottom: 8%;
+}
+
+.big-image img {
+	width: 100%;
+	margin-right: 0px;
+	margin-left: 0px;
+	
+}
+
+.address {
+	padding-top: 1%;
+	color: #E55672;
+	font-size: 16px;
+	font-family: 'Raleway';
+}
+
+.titles {
+	padding-top: 6%;
+	color: #E55672;
+	font-size: 16px;
+	font-family: 'Raleway';
+}
+
+.description {
+	padding-top: 2%;
+	font-family: 'Raleway';
+	line-height: 26px;
+	font-weight: lighter;
+}
+
+.links {
+	padding-top: 6%;
+	font-family: 'Raleway';
+	line-height: 26px;
+	font-weight: lighter;
+}
+
+.map {
+	padding-top: 2%;
+	padding-bottom: 0%;
+}
+
+.map img {
+	width: 100%;
+}
+
+.lighter {
+	padding-top: 3%;
+	font-weight: lighter;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #59616B;
+    width: 200px;
+}
+
+.subscribe {
+	position: relative;
+}
+
+@media(max-width:767px){
+	.title {
+		font-size: 14px;
+		padding-left: 4%;
+	}
+	.big-image {
+		bottom: 80%;
+	}
+}
